@@ -26,8 +26,12 @@
 - [x]  이름 예외처리 함수 (**`validateNames`**)
     - ,,혹은 ,  ,등 공백을 입력했을 경우
     - 5자가 초과될 경우
+    - 이름이 중복일 경우
+    - 레이서가 한명일 경우
 - [x]  입력 수 예외처리 함수 (**`validateCount`**)
     - 숫자가 아닐 경우
+    - 정수가 아닐 경우
+    - 0보다 작거나 같을 경우
 - [x]  자동차 이름 저장 함수 (**`storeCarNames`**)
 - [x]  점수 증가 확인 함수(**`updateScoreIfNecessary`**)
 - [x]  최종 점수 확인 함수 (**`checkFinalScores`**)
